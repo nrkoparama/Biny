@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --body-default-l-semibold: "Fira Sans";
+  
+    /* font sizes */
+    --body-default-l-semibold-size: 16px;
+    --heading-default-3-bold-size: 38px;
+  
+    /* Colors */
+    --base-black-60: rgba(9, 9, 9, 0.6);
+    --base-white-60: rgba(255, 255, 255, 0.6);
+    --base-white: #fff;
+    --info-600: #077eda;
+    --base-white-smoke: #f5f4f8;
+  
+    /* Paddings */
+    --padding-base: 16px;
+    --padding-11xl: 30px;
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+  }
+
+  .create-account {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 46px;
+  }
+  .facebook-icon {
+    width: 25px;
+    position: relative;
+    height: 25px;
+  }
+  .facebook-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 57px;
+  }
+  .or-use-your {
+    position: relative;
+    font-size: var(--body-default-l-semibold-size);
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    font-weight: 300;
+    color: var(--base-black-60);
+  }
+  .create-account-parent {
+    position: absolute;
+    top: 64px;
+    left: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 26px;
+    font-size: var(--heading-default-3-bold-size);
+    color: #000;
+  }
+  .name a{
+    text-decoration: none;
+    color: #090909;
+  }
+  .name {
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .email-wrapper,
+  .name-wrapper,
+  .password-wrapper {
+    background-color: var(--base-white-smoke);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    outline: none;
+  }
+  .name-wrapper {
+    border: none;
+    border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+    padding: var(--padding-base) 200px var(--padding-base) var(--padding-11xl);
+  }
+  .email-wrapper,
+  .password-wrapper {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid var(--base-black-60);
+    padding: var(--padding-base) 200px var(--padding-base) var(--padding-11xl);
+  }
+  .password-wrapper {
+    border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+    padding: var(--padding-base) 200px var(--padding-base) var(--padding-11xl);
+  }
+  .forgot-your-password-parent,
+  .frame-container {
+    position: absolute;
+    top: 223px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .forgot-your-password-parent {
+    top: 67%;
+    flex-direction: row;
+    gap: 230px;
+  }
+  .sign-up-wrapper {
+    position: absolute;
+    top: 445px;
+    left: 237px;
+    border-radius: var(--br-3xs);
+    background-color: var(--info-600);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 50px;
+    color: var(--base-white-smoke);
+    border: none;
+    position: relative;
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .frame-group {
+    width: 632px;
+    position: relative;
+    border-radius: 15px;
+    background-color: var(--base-white);
+    box-shadow: -5px 11px 21px rgba(0, 0, 0, 0.25);
+    height: 549px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .arrow-left-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+  }
+  .frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow-left-parent,
+  .frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  .frame-parent {
+    position: absolute;
+    top: 10%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .ng-k {
+    width: 100%;
+    position: relative;
+    background-color: var(--base-white-60);
+    height: 725px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--body-default-l-semibold-size);
+    color: var(--base-black-60);
+    font-family: var(--body-default-l-semibold);
+  }
+  
